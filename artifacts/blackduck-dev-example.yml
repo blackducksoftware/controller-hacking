@@ -1,0 +1,20 @@
+apiVersion: internal.blackduck/v4-8-0
+kind: Dev
+metadata:
+  name: devs
+spec:
+  customers:
+    example1:
+      docker_registry: "docker.io"
+      docker_repo: "blackducksoftware"
+      hub_version: "4.7.0"
+      hub_timeout: "24"
+      flavor: "opssight"
+      status: "Create"
+    example2:
+      docker_registry: "docker.io"
+      docker_repo: "blackducksoftware"
+      hub_version: "4.6.2"
+      hub_timeout: "48"
+      flavor: "small"
+      status: "Create"
