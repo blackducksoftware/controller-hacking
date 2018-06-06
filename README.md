@@ -1,2 +1,3 @@
-# controller-hacking
-Experimental repository for custom resource descriptions which work with blackduck's cloud native offerings.
+# Experimental repository for a hack-day project.
+
+This repository attempts to codify aspects of blackduck's hub as a Custom Resource Description.
